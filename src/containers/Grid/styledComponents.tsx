@@ -13,7 +13,7 @@ export const MainGrid = styled.div<{ $gridPanels: number }>`
   width: 100%;
   position: absolute;
   display: grid;
-  background-color: #980000;
+  background-color: #b00000;
   grid-template-columns: ${({ $gridPanels }) => `repeat(${$gridPanels}, 1fr)`};
   grid-template-rows: ${({ $gridPanels }) => `repeat(${$gridPanels}, 1fr)`};
   gap: 2px;

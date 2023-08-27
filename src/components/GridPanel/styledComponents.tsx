@@ -14,7 +14,7 @@ export const GridPanelBox = styled.div`
 
   &:hover {
     box-shadow: 2px 2px 4px black;
-    background-color: #980000;
+    background-color: #b00000;
     transition: background-color 25ms ease-in-out;
   }
 `;
