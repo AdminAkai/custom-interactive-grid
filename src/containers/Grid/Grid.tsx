@@ -1,10 +1,11 @@
-import { FC } from 'react'
+import { FC } from 'react';
 
-import { GridContainer, MainGrid } from './styledComponents'
-import GridPanel from 'components/GridPanel'
+import GridPanel from 'src/components/GridPanel';
+
+import { GridContainer, MainGrid } from './styledComponents';
 
 const Grid: FC = () => {
-  const allGrids = Array(144).fill(null)
+  const allGrids = Array(144).fill(null);
 
   return (
     <GridContainer>
@@ -24,7 +25,7 @@ const Grid: FC = () => {
       Red and Color
     </div> */}
     </GridContainer>
-  )
-}
+  );
+};
 
-export default Grid
+export default Grid;

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const GridPanelBox = styled.div`
   display: flex;
@@ -17,4 +17,4 @@ export const GridPanelBox = styled.div`
     background-color: #980000;
     transition: background-color 25ms ease-in-out;
   }
-`
+`;

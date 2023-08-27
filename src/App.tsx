@@ -1,5 +1,5 @@
-import Grid from 'containers/Grid'
+import Grid from 'src/containers/Grid';
 
-const App = () => (<Grid />)
+const App = () => <Grid />;
 
-export default App
+export default App;

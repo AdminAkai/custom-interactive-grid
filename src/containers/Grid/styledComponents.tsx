@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const GridContainer = styled.div`
   width: 100%;
@@ -6,7 +6,7 @@ export const GridContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-`
+`;
 
 export const MainGrid = styled.div<{ $gridPanels: number }>`
   height: 100%;
@@ -17,4 +17,4 @@ export const MainGrid = styled.div<{ $gridPanels: number }>`
   grid-template-columns: ${({ $gridPanels }) => `repeat(${$gridPanels}, 1fr)`};
   grid-template-rows: ${({ $gridPanels }) => `repeat(${$gridPanels}, 1fr)`};
   gap: 2px;
-`
+`;

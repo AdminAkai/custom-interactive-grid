@@ -2,8 +2,8 @@
  * Asynchronously loads the component for container
  */
 
-import loadable from '../../utils/loadable'
+import loadable from '../../utils/loadable';
 
 export default loadable(() => import('./index.ts'), {
-  fallback: null,
-})
+  fallback: null
+});
