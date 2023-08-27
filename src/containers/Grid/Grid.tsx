@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import GridPanel from 'src/components/GridPanel';
+import GridPanel from 'components/GridPanel';
 
 import { GridContainer, MainGrid } from './styledComponents';
 

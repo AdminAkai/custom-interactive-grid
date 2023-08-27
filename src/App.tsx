@@ -1,4 +1,4 @@
-import Grid from 'src/containers/Grid';
+import Grid from 'containers/Grid';
 
 const App = () => <Grid />;
 
